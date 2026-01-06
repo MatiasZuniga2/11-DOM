@@ -24,7 +24,17 @@ title.classList.toggle("big__title")
 
 
 
+const addText = document.querySelector("#agregartexto");
+const textConteiner = document.toggle("#container")
 
+addText.addEventListener("click", ()=> {
+
+
+    textConteiner.innerHTML = "<h2>Nuevo parrafo agregado usando JS</h2>";
+
+
+
+});
 
 
 
